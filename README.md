@@ -19,9 +19,8 @@ A Python utility to download any Steam user's profile picture in the highest ava
 - No external Python libraries are strictly required (uses standard libraries like urllib, html.parser, and subprocess).
 - Real-ESRGAN (Optional): For the AI features. The script can attempt to install this for you.
 
-🚀 How to Use | Run the script:
-- python3 steamavatardownloader.py
-
+🚀 How to Use 
+- Run the script: python3 steamavatardownloader.py
 - Choose Language: Type it for Italian or en for English.
 - AI Setup: When asked, decide if you want to enable AI upscaling. If you say yes and it's not found, the script will offer to download it for you.
 - Enter Profile: Paste the Steam URL or ID of the target profile.
