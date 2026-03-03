@@ -30,3 +30,13 @@ A Python utility to download any Steam user's profile picture in the highest ava
 - Scraping Logic: The script first tries to fetch data via Steam's XML interface (?xml=1) for the rawest image link. If that fails, it falls back to a custom HTML parser.
 - Sanitization: Usernames are sanitized to ensure they are valid filenames on your OS.
 - Upscaling: If enabled, the script runs a subprocess command to the Real-ESRGAN binary, applying the realesrgan-x4plus model to the downloaded file.
+
+🌟 Credits & Acknowledgments
+- This project is an advanced evolution of the original Steam-Avatar-Downloader by kouroshgz: https://github.com/kouroshgz/Steam-Avatar-Downloader. Special thanks to the original author for the foundational logic.
+- Parts of this code were refactored and enhanced using AI to ensure compatibility with modern Python standards and to integrate advanced features like Real-ESRGAN.
+
+While the core idea of scraping Steam profile XML/HTML was inspired by the original script, I have significantly refactored and expanded the software to include:
+- AI Super-Resolution: Integrated Real-ESRGAN (ncnn-vulkan) to provide high-quality 4x upscaling for downloaded avatars.
+- Bilingual Interface: Added full support for both Italian and English users.
+- Automated Dependency Management: Created a system to automatically detect, download, and configure the necessary AI binaries for macOS and Windows.
+- Modern Python Refactoring: Updated the codebase to be compatible with Python 3.x standards, improved error handling, and implemented an organized file management system in ~/Pictures/SteamAvatars.
