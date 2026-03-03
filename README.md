@@ -4,7 +4,7 @@ A Python utility to download any Steam user's profile picture in the highest ava
 
 ⚠️ Important Disclaimer
 - Project Status: This repository is no longer maintained. No further updates or bug fixes will be provided. Feel free to fork and modify it.
-- Platform: This script has been tested and verified only on macOS.Compatibility with Windows or Linux is not guaranteed but likely.
+- Platform: This script has been tested and verified only on macOS. Compatibility with Windows or Linux is not guaranteed but likely.
 - AI Requirements: Automatic installation of the AI upscaler (Real-ESRGAN) is only supported for macOS and Windows.
 
 ✨ Features
